@@ -18,7 +18,8 @@ class LoginView extends StatelessWidget {
             children: <Widget>[
               new Text(
                   "Logging in to your GitHub account allows the app to fetch" +
-                      " your favorite repositories and push notifications."),
+                      " your favorite repositories and push notifications."
+              ),
               new Padding(
                 padding: new EdgeInsets.only(top: 24.0),
                 child: new Column(
